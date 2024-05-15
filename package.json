@@ -1,0 +1,26 @@
+{
+  "name": "astro-build-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic usage of Astro building pages",
+  "scripts": {
+    "build": "astro --config astro.config.mjs build",
+    "lint": "astro --config astro.config.mjs check",
+    "format": "js-beautify --file \"dist/pages/**/*.html\"",
+    "serve": "astro --config astro.config.mjs dev --open --port 3000"
+  },
+  "keywords": [
+    "astro",
+    "build"
+  ],
+  "homepage": "https://github.com/ajiho/astro-build-boilerplate",
+  "author": {
+    "name": "ajiho",
+    "email": "lujiahao@88.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@astrojs/mdx": "^0.19.7",
+    "astro": "^2.10.12",
+    "js-beautify": "^1.15.1"
+  }
+}

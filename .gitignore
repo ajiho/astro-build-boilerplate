@@ -1,0 +1,11 @@
+node_modules
+.idea
+/.vscode
+*.DS_Store
+*.log
+.vercel
+
+
+# astro生成的文件
+**/env.d.ts
+**/node_modules
