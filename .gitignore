@@ -5,7 +5,9 @@ node_modules
 *.log
 .vercel
 
+# 生产目录
+dist
 
 # astro生成的文件
 **/env.d.ts
-**/node_modules
+.astro
